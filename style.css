@@ -1,0 +1,301 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    outline: none;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+
+}
+
+body {
+    font-family: 'Vesper Libre', serif;
+    color: rgb(255, 249, 252);
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Vesper Libre', serif;
+    color: rgb(255, 249, 252);
+    background-color: black;
+}
+
+nav {
+    width: 90%;
+    margin: 3px auto;
+    text-align: right;
+    position: fixed;
+    top: 2px;
+}
+
+nav ul li {
+    display: inline-block;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+    margin: 0px 10px;
+    letter-spacing: 1px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #FEE715FF;
+}
+
+
+/*first section*/
+.img-logo {
+    width: 85px;
+    height: 35px;
+}
+
+.first-header {
+    border: solid;
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(240, 240, 237);
+    border-radius: 4rem;
+    height: 6rem;
+    width: 80rem;
+    top: 5px;
+}
+
+.first-container {
+    border: 2px solid seashell;
+    width: 1300px;
+    height: 460px;
+    margin: auto auto;
+    text-align: center;
+    background-image: url(./img-mission-background.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #FEE715FF;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+.second-header {
+    text-transform: uppercase;
+    font-size: 150%;
+    font-family: 'Edu SA Beginner', cursive;
+}
+
+/*second section*/
+
+.tea-section {
+    text-align: center;
+    font-size: 'poppins', sans-serif;
+    margin-bottom: 100px;
+    color: yellow;
+    text-transform: uppercase;
+    font-size: 165%;
+    transform: skew(-13deg);
+
+}
+
+.about-section {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.about-container {
+    width: 85%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.image-container {
+    width: 100%;
+}
+
+.row-one,
+.row-two {
+    width: 90%;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.grid-item {
+    border: 2px solid purple;
+    width: 25%;
+    height: 210px;
+    margin-left: 85px;
+    background-size: cover;
+    background-position: center;
+}
+
+#tea-one {
+    background-image: url(./img-bedford-bizarre.jpg);
+}
+
+#tea-two {
+    background-image: url(./img-donut.jpg);
+}
+
+#tea-three {
+    background-image: url(./img-berryblitz.jpg);
+}
+
+#tea-four {
+    background-image: url(./img-myrtle-ave.jpg);
+}
+
+#tea-five {
+    background-image: url(./img-spiced-rum.jpg);
+}
+
+#tea-six {
+    background-image: url(./photo.006.jpg);
+}
+
+.grid-item:hover {
+    opacity: 0.65;
+}
+
+
+/*third section*/
+
+.section-title {
+    margin: 25px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: uppercase;
+    font-size: 250%;
+    text-align: center;
+    color: #FEE715FF;
+}
+
+.stores-section {
+    width: 100vw;
+    height: 640px;
+    background-image: url(./img-locations-background.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 115%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Store-div,
+.section-title,
+.copy-right {
+    margin-right: 75px;
+}
+
+/*last Section*/
+.contact-section {
+    width: 100vw;
+    height: 68vw;
+    background-color: black;
+    text-align: center;
+    color: #FFFFDD;
+    margin-right: 75px;
+}
+
+.contact-title {
+    margin: 25px 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: uppercase;
+    font-size: 250%;
+    text-align: center;
+    margin-right: 75px;
+    color: #FEE715FF;
+    transform: skew(-13deg);
+}
+
+.section-4target {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 50%;
+    height: 3rem;
+    margin: 2rem;
+    background-color: transparent;
+    padding: 0.4rem;
+    border: 0.1rem solid #fff;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    color: #fff;
+    flex-shrink: 0;
+    transition: background-color 0.5s;
+
+}
+
+.contact-form textarea {
+    max-width: 100%;
+    min-height: 5rem;
+}
+
+.form-input:focus {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.contact-form .form-btn {
+    background-color: rgba(255, 255, 255, 0.8);
+    font-weight: 600;
+    letter-spacing: 0.3rem;
+    color: #444;
+    cursor: pointer
+}
+
+.email {
+    font-size: 130%;
+    margin-right: 75px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    nav .row-one,
+    .row-two,
+    .location,
+    .contact-section {
+        font-size: .625rem;
+    }
+}
+
+@media only screen and (max-width: 200px) {
+
+    body,
+    nav .row-one,
+    .row-two,
+    .location,
+    .contact-section {
+        font-size: .300rem;
+        height: 100vw;
+    }
+}
+
+@media only screen and (max-width: 150px) {
+
+    body,
+    nav .row-one,
+    .row-two,
+    .location,
+    .contact-section {
+        font-size: 20rem;
+        height: 100vw;
+    }
+}
+
+@media only screen and (max-width: 250px) {
+    .Featured-Tea {
+        display: flex;
+        flex-direction: column;
+    }
+}
